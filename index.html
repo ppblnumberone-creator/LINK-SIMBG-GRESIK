@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SIMBG Gresik — Daftar Link</title>
+
+<style>
+
+  /* ====================================================
+     GANTI WALLPAPER DI SINI
+     Ganti "assets/wallpaper.jpg" dengan nama file foto kamu
+     ==================================================== */
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-image:
+      linear-gradient(180deg, rgba(8,20,40,0.75), rgba(8,20,40,0.9)),
+      url("assets/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px 16px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+  }
+
+  /* ====================================================
+     LOGO
+     ==================================================== */
+  .logo {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    color: #FFD873;
+    font-size: 20px;
+    margin: 10px 0 6px;
+  }
+
+  .subtitle {
+    color: #EAF1FF;
+    font-size: 13.5px;
+    line-height: 1.5;
+    margin: 0 0 26px;
+    opacity: 0.9;
+  }
+
+  /* ====================================================
+     TOMBOL LINK
+     ==================================================== */
+  .link-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #F6F3EA;
+    color: #0A1628;
+    font-weight: 600;
+    font-size: 14.5px;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border-left: 4px solid #F0B429;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+  }
+
+  .link-btn:hover {
+    background: #FFFFFF;
+  }
+
+  .link-btn .icon {
+    font-size: 18px;
+    flex: 0 0 auto;
+  }
+
+  footer {
+    margin-top: 20px;
+    color: rgba(255,255,255,0.5);
+    font-size: 11.5px;
+  }
+
+</style>
+</head>
+<body>
+
+  <div class="card">
+
+    <!-- ================= LOGO ================= -->
+    <img class="logo" src="assets/logo.png" alt="Logo SIMBG Gresik">
+
+    <!-- ================= JUDUL ================= -->
+    <h1>Daftar Link Serbaguna SIMBG</h1>
+    <p class="subtitle">Tetap semangat melayani dan memastikan keandalan bangunan di Gresik</p>
+
+    <!-- ================================================
+         DAFTAR LINK — GANTI URL DI href="..." DI BAWAH INI
+         Salin satu blok <a>...</a> untuk menambah tombol baru
+         ================================================ -->
+
+    <a class="link-btn" href="https://example.com/website-simbg" target="_blank">
+      <span class="icon">📱</span>
+      Website Aplikasi Super Master SIMBG
+    </a>
+
+    <a class="link-btn" href="https://example.com/drive-simbg-2026" target="_blank">
+      <span class="icon">🔗</span>
+      Drive SIMBG 2026
+    </a>
+
+    <a class="link-btn" href="https://example.com/agenda-simbg-2026" target="_blank">
+      <span class="icon">✉️</span>
+      Master Agenda SIMBG 2026
+    </a>
+
+    <footer>© 2026 SIMBG Gresik</footer>
+
+  </div>
+
+</body>
+</html>
